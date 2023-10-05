@@ -412,4 +412,6 @@ updates:
     schedule:
       interval: "weekly"
       day: "wednesday"
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
     open-pull-requests-limit: 5
